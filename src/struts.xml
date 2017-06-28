@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE structs PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://structs.apache.org/dtds/structs-2.0dtd">
+
+<struct>
+ <package name="com.qysypeed.structs" extends="structs-default" name="/dengjiajun">
+ 
+ <action name="calc" class="com.qyspeed.action.CalcAction">
+ <result>/WEB-INF/Test.jsp</result>
+ </action>
+ 
+ 
+ 
+ 
+ </package>
+</struct>
